@@ -1,4 +1,5 @@
-
+// archivo main de las pruebas Junit
+//Aqui se prueba el VectorHeap
 public class mainPruebas {
 
 	public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class mainPruebas {
 		prueba.start();
 		
 		prueba.priority();
-		
+
 		System.out.println("Se imprimira true si todo esta correcto: ");
 		System.out.println("... "+ prueba.Ppoll());
 	}

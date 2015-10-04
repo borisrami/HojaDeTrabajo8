@@ -3,7 +3,7 @@ public class PruebaJunit {
 	
 	private VectorHeap2<String> vector = new VectorHeap2<String>();
 	
-	//se prueba el metodo de buscar elemento de orden
+	//se prueba el metodo de buscar elemento de orden utilizando el abecedario , se excluye la letra Ñ 
 	
 	public void start(){
 		vector.add("O");
@@ -29,7 +29,7 @@ public class PruebaJunit {
 		vector.add("G");
 		vector.add("J");
 		vector.add("Z");
-		vector.add("Ñ");
+		//vector.add("Ñ");
 		vector.add("S");
 		vector.add("Q");
 		vector.add("U");
@@ -38,8 +38,8 @@ public class PruebaJunit {
 
 		public void priority(){
 			
-			for(int i= 0 ; i< 27 ; i++){
-				System.out.println(i+". "+vector.poll());
+			for(int i= 0 ; i< 26 ; i++){
+				System.out.println(i+"). "+vector.poll());
 			}
 		}
 		
