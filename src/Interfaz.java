@@ -11,7 +11,7 @@ public class Interfaz {
 	      Clinica clinica = new Clinica();
 	      try {
 	        
-	         archivo = new File ("pacientes.txt");
+	         archivo = new File ("src/pacientes.txt");
 	         fr = new FileReader (archivo);
 	         br = new BufferedReader(fr);
 	 
