@@ -1,4 +1,12 @@
+/*
+ 
+Universidad del valle de Guatemala
+Algoritmos y estructura de datos
+Hoja de trabajo # 8 
+Boris Cifuentes , 14150
+Yasmin Valdez, 14079
 
+*/
 public class PruebaJunit2 {
 	
 	private VectorHeap2<String> vector = new VectorHeap2<String>();
