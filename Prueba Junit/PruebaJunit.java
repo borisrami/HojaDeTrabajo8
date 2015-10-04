@@ -1,9 +1,17 @@
+/*
+ 
+Universidad del valle de Guatemala
+Algoritmos y estructura de datos
+Hoja de trabajo # 8 
+Boris Cifuentes , 14150
+Yasmin Valdez, 14079
 
+*/
 public class PruebaJunit {
 	
 	private VectorHeap2<String> vector = new VectorHeap2<String>();
 	
-	//se prueba el metodo de buscar elemento de orden utilizando el abecedario , se excluye la letra Ñ 
+	//se prueba el metodo de buscar elemento de orden utilizando el abecedario , se excluye la letra Ã‘ 
 	
 	public void start(){
 		vector.add("O");
@@ -29,7 +37,7 @@ public class PruebaJunit {
 		vector.add("G");
 		vector.add("J");
 		vector.add("Z");
-		//vector.add("Ñ");
+		//vector.add("Ã‘");
 		vector.add("S");
 		vector.add("Q");
 		vector.add("U");
