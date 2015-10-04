@@ -20,9 +20,24 @@ public class mainPruebas {
 		prueba.start();
 		
 		prueba.priority();
-
+		
 		System.out.println("Se imprimira true si todo esta correcto: ");
 		System.out.println("... "+ prueba.Ppoll());
+		System.out.println(" ");
+		System.out.println("____________________________________________");
+		System.out.println("Prueba # 2 ");
+		
+
+		PruebaJunit2 prueba2 = new PruebaJunit2();
+		
+		prueba2.start2();
+		
+		prueba2.priority2();
+		
+		System.out.println("Se imprimira true si todo esta correcto: ");
+		System.out.println("... "+ prueba2.Ppoll2());
+		
+		
 	}
 
 }
